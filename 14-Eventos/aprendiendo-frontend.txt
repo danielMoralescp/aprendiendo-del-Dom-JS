@@ -1,0 +1,24 @@
+
+                                             target
+En JavaScript, el target es una propiedad del objeto del evento (event) que hace referencia al elemento del DOM 
+que disparó el evento. Esto es útil para identificar qué elemento específico fue el origen del evento.
+
+
+                                             blur
+Cuando el usuario escribe en el campo y luego hace clic fuera del input o presiona Tab, se dispara el evento blur.
+Aparece el mensaje en la consola: "El input perdió el foco".
+El evento blur no se propaga (no realiza bubbling), pero puedes usar focusout si necesitas que el evento se propague.
+Es compatible con casi todos los navegadores, incluidos navegadores más antiguos.
+
+
+                                         otros , alternativas al blurfocus: Ocurre cuando un elemento gana el foco.
+change: Se dispara cuando el valor de un elemento cambia y el foco se pierde, pero solo funciona en campos de formulario como <input> o <textarea>.
+blur: Se dispara siempre que el foco se pierde, independientemente de si el valor cambió o no.
+
+
+
+function para detectar un elemento getBoundingClientRect()
+
+
+
+
